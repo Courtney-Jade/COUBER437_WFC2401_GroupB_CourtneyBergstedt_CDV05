@@ -5,13 +5,37 @@ body {
     box-sizing: border-box;
     background: linear-gradient(45deg, #111827, #1F2937);
     color: #E5E7EB;
+    overflow-x: hidden;
 }
 
 header {
-    background: linear-gradient(to right, #333, #555);
-    color: whitesmoke;
+    background: linear-gradient(to right, #0F172A, #334155);
     padding: 20px;
     text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+    position: relative; /* Required for the animated background */
+    z-index: 1;
+}
+
+header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(ellipse at center, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 70%); /* Animated background */
+    z-index: -1; /* Place the background behind the header */
+    animation: animatedBackground 10s linear infinite; /* Apply animation */
+}
+
+@keyframes animatedBackground {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
 }
 
 nav ul {
@@ -24,14 +48,16 @@ nav ul {
 
 nav ul li {
     margin: 0 15px;
+    position: relative;
 }
 
 nav ul li a {
-    color: white;
+    color: #E5E7EB;
     text-decoration: none;
     font-weight: bold;
     position: relative;
     padding-bottom: 5px;
+    transition: color 0.3s ease;
 }
 
 nav ul li a::before {
@@ -42,7 +68,11 @@ nav ul li a::before {
     width: 0;
     height: 2px;
     background-color: white;
-    transition: width 0.3s ease-in-out;
+    transition: width 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #6366F1; /* Change text color on hover */
 }
 
 nav ul li a::before {
