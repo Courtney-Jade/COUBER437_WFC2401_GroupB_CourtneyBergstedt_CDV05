@@ -5,3 +5,10 @@ body {
     box-sizing: border-box;
     background: linear-gradient(45deg, #3E5151, #DECBA4);
 }
+
+header {
+    background: linear-gradient(to right, #333, #555);
+    color: whitesmoke;
+    padding: 20px;
+    text-align: center;
+}
