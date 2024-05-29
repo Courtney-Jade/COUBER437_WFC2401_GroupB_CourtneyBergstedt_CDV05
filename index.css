@@ -132,6 +132,13 @@ section {
     background-color: #122e33;
 }
 
+.hero-image {
+    max-width: 300px; /* Adjust the max-width as needed */
+    height: auto;
+    border-radius: 50%; /* This will make the image circular */
+    margin-bottom: 20px; /* Add some space between the image and the heading */
+  }
+
 .profile-picture {
     max-width: 200px; /* Adjust the max-width as needed */
     height: auto;
