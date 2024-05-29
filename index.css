@@ -140,15 +140,15 @@ section {
 .btn {
     display: inline-block;
     padding: 12px 24px;
-    background-color: #416268;
-    color: white;
+    background-color: #6366F1;
+    color: #E5E7EB;
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s ease;
 }
 
 .btn:hover {
-    background-color: #122e33;
+    background-color: #4F46E5;
 }
 
 .hero-image {
@@ -169,16 +169,10 @@ section {
     display: flex;
     align-items: center;
   }
-  
-  .profile-picture {
-    max-width: 200px;
-    height: auto;
-    border-radius: 50%;
-    margin-right: 40px; /* Add some space between the image and the paragraph */
-  }
+
 
 .project {
-    background-color: linear-gradient(45deg, #3a5f96, #355a7c);
+    background-color: #334155;
     padding: 20px;
     margin: 20px 0;
     border-radius: 10px;
@@ -206,15 +200,15 @@ section {
     display: inline-block;
     margin-top: 10px;
     padding: 8px 16px;
-    background: linear-gradient(to right, #333, #555);
-    color: white;
+    background: linear-gradient(to right, #0F172A, #334155);
+    color: #E5E7EB;
     text-decoration: none;
     border-radius: 5px;
     transition: background 0.3s ease-in-out;
   }
 
   .project-link:hover {
-    background: linear-gradient(to right, #555, #777);
+    background: linear-gradient(to right, #334155, #6366F1);
   }
 
   
@@ -227,7 +221,7 @@ section {
   .skill {
     margin: 10px;
     padding: 20px;
-    background: linear-gradient(45deg, #E6CEB5, #B59275);
+    background: linear-gradient(45deg, #334155, #6366F1);
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out;
@@ -239,13 +233,13 @@ section {
 
   .skill i {
     font-size: 36px;
-    color: #ffffff;
+    color: #E5E7EB;
     margin-bottom: 10px;
   }
 
   footer {
-    background: linear-gradient(to right, #333, #555);
-    color: white;
+    background: linear-gradient(to right, #0F172A, #334155);
+    color: #E5E7EB;
     text-align: center;
     padding: 20px 0;
   }
@@ -266,16 +260,17 @@ section {
     width: 80%;
     padding: 10px;
     margin: 5px 0;
-    border: 1px solid #ccc;
+    border: 1px solid#6B7280;
     border-radius: 5px;
-    background-color: #f8f8f8;
+    background-color: #1F2937;
+    color: #E5E7EB;
   }
 
   form button {
     padding: 10px 20px;
     margin-top: 10px;
-    background: linear-gradient(to right, #333, #555);
-    color: white;
+    background: linear-gradient(to right, #0F172A, #334155);
+    color: #E5E7EB;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -283,7 +278,7 @@ section {
   }
   
   form button:hover {
-    background: linear-gradient(to right, #555, #777);
+    background: linear-gradient(to right, #334155, #6366F1);
   }
 
   .contact-form {
@@ -309,11 +304,11 @@ section {
   .social-links a {
     display: inline-block;
     margin: 0 10px;
-    color: white;
+    color: #E5E7EB;
     font-size: 24px;
     transition: color 0.3s ease-in-out;
   }
   
   .social-links a:hover {
-    color: #f8f8f8;
+    color: #6366F1;
   }
