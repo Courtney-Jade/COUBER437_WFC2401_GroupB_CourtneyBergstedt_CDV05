@@ -5,32 +5,45 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Portfolio of [Courtney-Jade], showcasing projects and skills in Software Development.">
         <meta name="keywords" content="Web Developer, Portfolio, HTML, CSS, JavaScript, Projects">
-        <meta name="author" content="[Courtney-Jade]">
+        <meta name="author" content="Courtney-Jade">
         <title>Courtney-Jade's Portfolio</title>
         <link rel="stylesheet" href="index.css">
+        <link
+        rel="stylesheet"
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+      />
     </head>
     <body>
         <header>
             <nav>
-                <ul>
-                    <li><a href="#home">Home</a></li>
+                <ul class="nav-links">
                     <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
+                <div class="burger">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                  </div>
             </nav>
         </header>
 
-        <section id="home" class="hero">
+        <section id="home">
             <div class="hero-content">
-                <h1>Courtney-Jade</h1>
-                <p>Software Developer</p>
-            </div>
+                <h1>Welcome to My Portfolio</h1>
+                <p>Explore my projects and skills</p>
+                <a href="#about" class="btn">Learn More</a>
+              </div>
         </section>
 
-        <section id="about" class="content-section">
-            <h2>About Me</h2>
-            <p>Brief descript</p>
+        <section id="about">
+            <h1>About Me</h1>
+            <div class="about-content">
+              <img src="your-picture.jpg" alt="Your Name" class="profile-picture">
+              <p>Full Stack Developer with a passion for creating beautiful and functional web applications.</p>
+            </div>
         </section>
 
         <section id="projects" class="content-section">
