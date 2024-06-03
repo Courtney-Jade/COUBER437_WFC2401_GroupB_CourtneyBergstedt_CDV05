@@ -221,7 +221,7 @@ section {
   .skill {
     margin: 20px;
     padding: 20px;
-    background: linear-gradient(45deg, #c0f0d0, #80e0a0);
+    background: linear-gradient(45deg, #d0f0c0, #a0e0a0);
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     text-align: center;
