@@ -158,17 +158,80 @@ section {
     margin-bottom: 20px; /* Add some space between the image and the heading */
   }
 
-.profile-picture {
-    max-width: 200px; /* Adjust the max-width as needed */
-    height: auto;
-    border-radius: 50%; /* This will make the image circular */
-    margin-bottom: 30px; /* Add some space between the image and the paragraph */
+  .section {
+    padding: 80px 0;
   }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .section-header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .section-header h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .section-divider {
+    width: 100px;
+    height: 3px;
+    background-color: #333;
+    border: none;
+    margin: 0 auto;
+  }
+  
 
-.about-content {
+  .about-content {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
   }
+
+  .about-text {
+    flex: 1;
+    max-width: 600px;
+    margin-right: 40px;
+  }
+
+  .about-text p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+
+  .about-image {
+    flex: 0 0 300px;
+    text-align: center;
+  }
+
+  .profile-picture {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #555;
+  }
+  
 
 
 .project {
