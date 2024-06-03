@@ -387,17 +387,3 @@ section {
   .social-links a:hover {
     color: #6366F1;
   }
-
-  @keyframes fadeIn {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
-  
-  body {
-    opacity: 0;
-    animation: fadeIn 1s ease-in-out forwards;
-  }
