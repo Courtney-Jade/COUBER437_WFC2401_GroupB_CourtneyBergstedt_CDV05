@@ -1,7 +1,7 @@
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 0;
-    padding: 0;
+    padding: 10px;
     box-sizing: border-box;
     background: linear-gradient(135deg, #F7F7F7, #FFFFFF);
     color: #333;
@@ -27,7 +27,6 @@ header::before {
     height: 100%;
     background: radial-gradient(ellipse at center, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 70%); /* Animated background */
     z-index: -1; /* Place the background behind the header */
-    animation: animatedBackground 10s linear infinite; /* Apply animation */
 }
 
 nav ul {
@@ -72,7 +71,7 @@ nav ul li a::before {
 }
 
 section {
-    padding: 40px 30px;
+    padding: 20px 15px;
     text-align: center;
     background-color: #FFFFFF;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -83,7 +82,7 @@ section {
 #skills,
 #projects,
 #contact {
-    margin: 40px 0;
+    margin: 20px 0;
 }
 
 .hero {
@@ -105,21 +104,10 @@ section {
     margin: 0 auto;
     padding: 20px;
 }
-
-.hero-image-container {
-    flex: 0 0 auto;
-    margin-right: 40px;
-  }
-
-.hero-image {
-    max-width: 400px;
-    height: auto;
-    border-radius: 20%;
-  }
   
   .hero-text {
     flex: 1;
-    text-align: left;
+    text-align: center;
   }
 
 .hero-text h1 {
@@ -227,12 +215,10 @@ section {
     background-color: #555;
   }
   
-
-
 .project {
     background-color: #F0F9FF;
-    padding: 20px;
-    margin: 20px 0;
+    padding: 10px;
+    margin: 10px 0;
     border-radius: 20px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out;
@@ -277,8 +263,8 @@ section {
   }
   
   .skill {
-    margin: 20px;
-    padding: 20px;
+    margin: 10px;
+    padding: 10px;
     background: linear-gradient(45deg, #2A6EBB, #1E5C9A);
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -312,7 +298,7 @@ section {
     background: linear-gradient(to right, #F0F9FF, #E0F2FE);
     color:  #333;
     text-align: center;
-    padding: 20px 0;
+    padding: 10px 0;
   }
 
   form {
@@ -323,14 +309,14 @@ section {
 
   
   form label {
-    margin: 10px 0 5px 0;
+    margin: 5px 0 2px 0;
   }
   
   form input,
   form textarea {
     width: 80%;
     padding: 10px;
-    margin: 5px 0;
+    margin: 2px 0;
     border: 1px solid #CCC;
     border-radius: 5px;
     background-color: #FFF;
@@ -339,7 +325,7 @@ section {
 
   form button {
     padding: 10px 20px;
-    margin-top: 10px;
+    margin-top: 5px;
     background: linear-gradient(to right, #2A6EBB, #1E5C9A);
     color: #E5E7EB;
     border: none;
@@ -358,7 +344,7 @@ section {
   }
   
   .form-group {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     text-align: left;
   }
   
