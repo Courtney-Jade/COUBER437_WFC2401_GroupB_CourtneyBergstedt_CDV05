@@ -1,15 +1,16 @@
-cssCopy codebody {
+
+body {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   margin: 0;
   padding: 5px;
   box-sizing: border-box;
-  background: linear-gradient(135deg, #A3BCB6, #E3D5CA);
+  background: linear-gradient(135deg, #8bbde6, #3e739e);
   color: #2E4053;
   overflow-x: hidden;
  }
  
  header {
-  background: linear-gradient(to right, #77A1D3, #79CBCA, #E684AE);
+  background: linear-gradient(to right, #77A1D3, #79CBCA, #72e0b6);
   padding: 10px;
   text-align: center;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
@@ -46,7 +47,7 @@ cssCopy codebody {
   text-decoration: none;
   font-weight: bold;
   position: relative;
-  padding-bottom: 7px;
+  padding-bottom: 9px;
   transition: color 0.3s ease;
  }
  
@@ -162,7 +163,7 @@ cssCopy codebody {
 }
 
 .about-text p {
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.6;
   margin-bottom: 15px;
 }
@@ -356,6 +357,11 @@ form button:hover {
  .contact-info-container {
   flex: 1 1 35%;
  }
+
+
+
+
+
  
 
 
